@@ -1,0 +1,279 @@
+.main-one{
+    background-image: url(images/bg-hero-desktop.svg);
+    height:fit-content;
+    background-size: cover;
+    background-color: rgba(207, 255, 255, 0.53);
+}
+.logobox{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.mockupbox{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.mockupdes{
+    width:50%;
+    padding-right:50px;
+    margin-top: 40px;
+}
+.mockups{
+    height:400px;
+    width:60%;
+}
+.logo{
+    width: 150px;
+    height:10%;
+}
+.mokupdes-p{
+    font-family: 'Open Sans', sans-serif;
+}
+.mokupdes-h{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:38px;
+}
+.button-1{
+    background-color: white;
+    width: 130px;
+    height:30px;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:rgb(120, 118, 115);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.button-2{
+    border-radius: 20px;
+    background-color:hsl(322, 100%, 75%);
+    font-size: 12px;
+    border-style: none;
+    color:white;
+    font-weight: bold;
+    width: 180px;
+    height:35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-two{
+    background-color:white;
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.box{
+    height:30%;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(244, 242, 240);
+    border-radius: 5px;
+    padding: 40px;
+}
+#box-t{
+        height:30%;
+        width:80%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(244, 242, 240);
+        border-radius: 5px;
+        padding: 40px;
+}
+
+.boxdes{
+    width:700px;
+    padding:20px;
+}
+.image{
+    height:200px;
+    width:280px;
+    
+}
+.box-p{
+    font-family: 'Open Sans', sans-serif;
+    width: 79%;
+    font-size: 17px;
+    color:  hsl(208, 11%, 55%);
+}
+.box-h{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:24px;
+}
+.box-pad{
+    margin-top: 40px;
+}
+#box-2{
+    margin-left: 100px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top:-80px;
+    width: 600px;
+    height:130px;
+    background-color:white;
+    position: relative;
+    color: hsl(192, 100%, 9%);
+    border-radius: 10px;
+}
+.login-buton{
+    background-color: hsl(322, 100%, 66%);
+    height: 30px;
+    border-radius: 20px;
+    border-style:none ;
+    width:230px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding:20px 0px;
+    align-items: center;
+}
+.svg{
+    /* height:100px; */
+    width:87%;
+}
+.foot-inner{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    width: 80%;
+    
+}
+.para{
+    width: 200px;
+    flex-wrap: wrap;
+}
+#copy{
+    text-align:end ;
+    width: 70%;
+    font-size: 10px;
+}
+.icon{
+    margin-right:10px;
+}
+.social{
+    margin-top: 10px;
+}
+.fut{
+    background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color:rgb(83, 43, 83) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+.attribution{
+    margin: 0px;
+}
+
+@media only screen and (max-width:375px){
+    html,body{
+        width:100%;
+        overflow-x: hidden; /*remember to use this for all mob layouts */
+    }
+    .logobox{
+        display:flex;
+        justify-content:space-between; 
+        padding:20px 10px 10px;
+    }
+    .mockupbox{
+        display:flex;
+        flex-direction: column;
+    }
+    .mockupdes{
+        text-align: center;
+        padding:0px;
+        width: 100%;
+    }
+    .mokupdes-h{
+        font-size: 23px;
+    }
+    .mokupdes-p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .mockups{
+        margin-top: 20px;
+        width: 100%;
+        height:250px;
+    }
+    .main-two{
+        /* margin-top: 10px 10px 10px; */
+        padding-top: 30px;
+    }
+    .box{
+        width: 100%;
+        /* margin:40px; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .box-h{
+        text-align: center;
+    }
+    .box-p{
+        text-align: center;
+        font-size: 10px;
+        margin: 0px auto;
+    }
+    .boxdes{
+        width: 100%;
+    }
+    /* #box-2{
+        width: 100%;
+        margin:40px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    } */
+    #box-t{
+        width: 100%;
+        margin:40px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #box-2{
+        margin:0px auto;
+        padding:0px 0px 0px;
+    }
+    .login{
+        width:90%;
+        text-align: center;
+        font-size: 14px;
+        padding:10px;
+    }
+    .foot-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1{
+        font-size: 12px;
+    }
+    .social{
+        margin:0px auto;
+    }
+    .svg{
+        margin-left: 0px;
+    }
+}
